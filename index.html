@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  
+  <script>
+    
+    function addtext(){
+      var text = document.getElementById('text');
+      document.getElementById("pp").innerHTML = text.value;
+    }
+    
+    
+  </script>
+  
+  
+  <body>
+      <div class = "container">
+        <h4> A message you would like to pass</h1>
+        <input id= 'text'> </input>
+        <button onClick ='addtext()'> submit</button>
+        <p> Let the message delevered</p>
+        <p id = "pp"></p>
+        
+        
+        
+      </div>
+  </body>
+</html>
